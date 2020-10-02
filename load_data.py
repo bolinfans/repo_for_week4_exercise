@@ -20,3 +20,8 @@ def readfile(filename: str):
     
     return obj_id, ra, dec, u, g, r, i, z, redshift, obj_class
 #-------------------------------------------------
+
+pd.read_csv('../data_SDSS.csv')
+
+print('Data Loaded!)
+
